@@ -1,0 +1,38 @@
+:root {
+    --purple1:#E7E6F7;
+    --litepink:#E3D0D8;
+    --purple2:#AEA3B0;
+    --purple3:#827081;
+    --liteblue:#b0c2ee;
+}
+body {
+    text-align: center;
+    background-color: var(--litepink);
+    color: var(--purple3);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    color: var(--liteblue)
+}
+a:visited { color: var(--purple2);
+
+}
+
+.savate-mainfont {
+  font-family: "Savate", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20;
+  font-style: normal;
+}
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+.reglink {
+    background-color: #827081;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+
+    display: inline-block; 
+}
